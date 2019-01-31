@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Europe/Paris',
 
     /*
     |--------------------------------------------------------------------------
@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Snapmail\Providers\AppServiceProvider::class,
+        Snapmail\Providers\AuthServiceProvider::class,
+        // Snapmail\Providers\BroadcastServiceProvider::class,
+        Snapmail\Providers\EventServiceProvider::class,
+        Snapmail\Providers\RouteServiceProvider::class,
 
     ],
 

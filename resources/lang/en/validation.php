@@ -131,6 +131,8 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'email.required' => 'Adresse email obligatoire !',
+        'message.required' => 'Message obligatoire !'
     ],
 
     /*

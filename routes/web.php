@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/link', function () {
+    return view('emails.link', ['key' => $data['key']]);
+});
+
+Route::post('/create', 'MessageController@create');
+
+Route::get('/mail/{key}', 'MessageController@get');

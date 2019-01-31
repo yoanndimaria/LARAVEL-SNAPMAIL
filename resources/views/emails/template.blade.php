@@ -1,0 +1,1 @@
+Pour lire votre message, <a href="http://127.0.0.1:8000/mail/{!! $key !!}">cliquez-ici</a>		
