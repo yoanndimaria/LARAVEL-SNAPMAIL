@@ -1,6 +1,5 @@
 const requests = axios.create({
 	baseURL: window.location.href,
-	timeout: 1500,
 })
 
 new Vue({
